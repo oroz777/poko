@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+ 
+}
+.contener{
+    margin: 0px 166px;
+}
+.glava{
+    background-image: url(кортина.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.gldava-1{
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav-item{
+    color: wheat;
+    text-decoration: none;
+     font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: 14px;
+  margin-right: 25px;
+  transition: all 0.3s;
+  
+  
+}
+.nav-item:hover {
+color: rgb(237, 16, 16);
+}
+.cart{
+    position: relative;
+    border-right: 1px solid #FFFFFF ;
+    padding-right: 15px;
+    height: 50px;
+}
+.cart-kor{
+    position: absolute;
+    top: 18px;
+    right: 7px;
+}
+.nom{
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    transition: all 0.3s;
+}
+.nom:hover{
+    color: rgb(237, 16, 16);
+}
+.fon-tekst{
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+}
+.row1{
+    display: flex;
+    align-items: center;
+}
+.buton{
+     background-color: #FF7400;
+     color: white;
+     text-decoration: none;
+     padding: 14px 18px;
+     font-weight: 700;
+     transition: all 0.3s;
+}
+.buton:hover{
+    background-color: #aa5815;
+
+}
